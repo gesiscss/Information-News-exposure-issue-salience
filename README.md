@@ -1,10 +1,8 @@
 # Information-News-exposure-issue-salience
 
 
-As we all know, the technology and the way we communicate have evolved tremendously in recent decades. We have a whole range of digital devices that allow us to consult the media and access a wealth of information. However, the way we see and consume this information differs from an individual to another based on different aspects (age, gender, occupation, location and most importantly preferences).
+In this thesis, we are interested in understanding how people’s online news reading activity is related to what they believe to be the most important global issue to them.
 
-In this project, we focus in particular on news articles and how people consume them with respect to their preferences. Do people really stick to their preferences and read articles that are closely related to the socio-political issues they claim to be most important to them ?
+To achieve that, we were provided with two datasets containing textual articles that a set of users viewed. We give details of the corpus-specific data wrangling techniques that were applied to delete any records that are not actual articles. We, then, describe the LDA (Latent Dirichlet Allocation) training and our combined evaluation approach that were conducted to extract latent topics in the corpus. 
 
-This leads to the main research question of this project : “How is the issue that a person considers most important related to what they browse?”
-
-At the end of this project, we will provide a detailed explanation of the method used for identifying topics. In addition, we will share usable notebooks with our scripts and our approach on creating browsing profiles. We might go further and analyse the findings in correlation with other aspects such as age or gender.
+Lastly, we present a method that aggregates topics of the read articles to different users in the form of a matrix and then compares it with their preferred topics.
