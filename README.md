@@ -7,4 +7,4 @@ To achieve that, we were provided with two datasets containing textual articles 
 
 Lastly, we present a method that aggregates topics of the read articles to different users in the form of a matrix and then compares it with their preferred topics.
 
-![Screenshot](screenshot.png)
+![Screenshot](thesis_structure.png)
